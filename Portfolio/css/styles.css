@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background: rgb(1,0,14);
+    background: linear-gradient(0deg, rgba(1,0,14,1) 0%, rgba(241,41,99,1) 100%);
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 4fr 4fr
+}
+.banner .container{
+    position: relative;
+    background: rgb(59,52,162);
+    background: linear-gradient(0deg, rgba(59,52,162,1) 0%, rgba(25,21,70,0.9444152661064426) 100%);
+    height: 100vh;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0,5s;
+
+}
+header .logo img{
+    max-width: 150px;
+    gap: 60px;
+    color: #fff;
+}
+header ul{
+    display: flex;
+    gap: 60px;
+}
+header ul li{
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+header ul li a:hover{
+    color: rgb(220, 210, 243);
+}
+.banner2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Portfolio/img/pexels-surja-sen-das-raj-10622625.jpg);
+    background-size: cover;
+}
+
+.banner2 .container2{
+max-width: 900px;
+text-align: center;
+}
+.banner2 .container2 .separador{
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    height: 0.65em;
+    vertical-align: top;
+    width: 10%;
+}
+.banner2 .container2 h2{
+    color: #fff;
+    font-weight: 500;
+}
+.banner2 .container2 p{
+    color: #fff;
+    font-weight: 500;
+}
+.banner2 .container2 .boton{
+    display: inline-block;
+    font-size: 1.1em;
+    color: grey;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: ;
+}
+.banner2 .container2 .boton a{
+    text-decoration: none;
+    font-weight: 00;
+    color: balck;
+    letter-spacing: 1px;
+
+
+}
