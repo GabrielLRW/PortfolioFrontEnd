@@ -11,16 +11,18 @@ body{
 }
 
 .banner{
-    display: grid;
-    grid-template-columns: 4fr 4fr
+    display: grid; 
+    grid-template-columns: 4fr 4fr;
 }
+
 .banner .container{
     position: relative;
-    background: rgb(59,52,162);
-    background: linear-gradient(0deg, rgba(59,52,162,1) 0%, rgba(25,21,70,0.9444152661064426) 100%);
     height: 100vh;
     padding: 0;
+    
 }
+
+
 header{
     position: fixed;
     top: 0;
@@ -93,7 +95,7 @@ text-align: center;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 30px;
-    text-decoration: ;
+    text-decoration:none;
 }
 .banner2 .container2 .boton a{
     text-decoration: none;
@@ -102,4 +104,26 @@ text-align: center;
     letter-spacing: 1px;
 
 
+}
+
+ .imagenes{
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes .img{
+    position: relative;
+    width: 50%;
+}
+.imagenes .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imagenes .img:nth-child(1){
+    width: 100%;
 }
